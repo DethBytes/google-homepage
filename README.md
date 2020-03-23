@@ -1,0 +1,3 @@
+For this mini-project, I will be deconstructing an exisiting webpage in this case Google's homepage (Google.com). The goal is for me to start thinking about how each element is placed on the page and get a rough idea of how they get styled and aligned. I will provide a link below if you are interested in trying out this exercise yourself.
+
+Give it a try!: From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
