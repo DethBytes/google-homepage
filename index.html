@@ -2,36 +2,40 @@
   <head>
       <link rel="stylesheet" href="styles.css">
       <title>Google</title>
-      <nav id="TopNavBar">
-          <a href="#">About</a>
-          <a href="#">Store</a>
-          <a href="#">Gmail</a>
-          <a href="#">Images</a>
-          <a href="#">Sign in</a>
+      <nav id="topNavBar">
+          <ul id="topNavBarList">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Store</a></li>
+              <li class="moveRight"><button id="topNavButton" type="button"><a id="signIn" href="#">Sign in</a></button></li>
+              <li class="moveRight"><a href="#">Images</a></li>
+              <li class="moveRight"><a href="#">Gmail</a></li>
+          </ul>  
       </nav>
   </head>
   <body>
-      <div id="logo">
+      <div id="logo" class="center">
           <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
       </div>
-      <div id="searchbar">
+      <div id="searchBar" class="center">
           <form>
               <label for="search"></label>
-              <input type="text" id="search" name="search" placeholder="search">
+              <input type="text" id="search" name="search">
               <div id="searchButtons">
-              <button type="button">Google Search</button>
-              <button type="button">I'm Feeling Lucky</button>
+              <button class="button-style" type="button">Google Search</button>
+              <button class="button-style" type="button">I'm Feeling Lucky</button>
               </div>
           </form>
       </div>
       <footer>
-          <nav id="BottomNavBar">
-              <a href="#">Advertising</a>
-              <a href="#">Business</a>
-              <a href="#">How Search works</a>
-              <a href="#">Privacy</a>
-              <a href="#">Terms</a>
-              <a href="#">Settings</a>
+          <nav id="bottomNavBar">
+              <ul id="bottomNavBarList">
+                  <li><a href="#">Advertising</a></li>
+                  <li><a href="#">Business</a></li>
+                  <li><a href="#">How Search works</a></li>
+                  <li class="moveRight"><a href="#">Settings</a></li>
+                  <li class="moveRight"><a href="#">Terms</a></li>
+                  <li class="moveRight"><a href="#">Privacy</a></li>
+              </ul> 
           </nav>
       </footer>
   </body>

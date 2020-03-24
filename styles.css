@@ -1,0 +1,76 @@
+/* Links/Navbar Style */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+li {
+    float: left;
+    padding-left: 10px;
+}
+
+li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    padding: 8px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.moveRight {
+    float: right;
+    padding: 10px;
+}
+
+#topNavButton {
+    background-color: #3172ff;
+    border: none;
+    border-radius: 2px;
+}
+
+#signIn {
+    color: white;
+}
+
+/* bottomNavBar additional adjustment styles */
+#bottomNavBar {
+    margin-top: 190px;
+}
+
+/* logo/SearchBar Style */
+.center{
+    display: block;
+    margin-left: 38.8%;
+    margin-right: 38.8%;
+    width: 50%;
+}
+
+#logo {
+    margin-top: 95px;
+    padding-left: 19px;
+    padding-bottom: 20px;
+}
+
+#search {
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 20px;
+    width: 500px;
+    height: 30px;
+    margin-left: -100px;
+    margin-bottom: 5px;
+}
+
+#searchButtons {
+    padding: 20px;
+}
+
+.button-style {
+    background-color: #e0e0e07a;
+    border-radius: 2px;
+    
+}
