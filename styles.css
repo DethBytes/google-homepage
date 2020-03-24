@@ -1,3 +1,11 @@
+/* Font-Import */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* font style */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Links/Navbar Style */
 ul {
     list-style-type: none;
@@ -31,6 +39,7 @@ a:hover {
     background-color: #3172ff;
     border: none;
     border-radius: 2px;
+    font-weight: 800;
 }
 
 #signIn {
@@ -39,12 +48,24 @@ a:hover {
 
 /* bottomNavBar additional adjustment styles */
 #bottomNavBar {
-    margin-top: 190px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#bottomNavBarList {
+    margin-top: 203px;
+    padding: 5px;
+    background-color: #ebebeb83;
+    opacity: 50%;
+}
+
+.moveBottomRight{
+    float: right;
 }
 
 /* logo/SearchBar Style */
 .center{
-    display: block;
     margin-left: 38.8%;
     margin-right: 38.8%;
     width: 50%;
@@ -66,11 +87,20 @@ a:hover {
 }
 
 #searchButtons {
-    padding: 20px;
+    padding: 10px;
 }
 
 .button-style {
     background-color: #e0e0e07a;
     border-radius: 2px;
-    
+    border: 1px solid white;
+    width: 150px;
+    height: 40px;
+    font-weight: 800;
+    opacity: 60%;
+}
+
+.button-style:hover {
+    border: 1px solid #cecececb;
+    opacity: 80%;
 }
